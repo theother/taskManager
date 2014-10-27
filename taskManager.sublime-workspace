@@ -1,0 +1,793 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"res",
+				"result	(?)"
+			],
+			[
+				"e",
+				"events	Meteor: Template.myTemplate.events(eventMap)"
+			],
+			[
+				"Rout",
+				"Router.route	Router_route"
+			],
+			[
+				"ar",
+				"arg2	{}"
+			],
+			[
+				"R",
+				"Rvarible	(?)"
+			],
+			[
+				"Metis",
+				"Meteor.isClient	Meteor.isClient"
+			],
+			[
+				"msg",
+				"msg	(?)"
+			],
+			[
+				"tw",
+				"tweetRec()"
+			],
+			[
+				"Rou",
+				"Router"
+			],
+			[
+				"Ses",
+				"Session.set	Meteor: Session.set(key, value)"
+			],
+			[
+				"post",
+				"postAttributes	(?)"
+			],
+			[
+				"psot",
+				"postAttributes	(?)"
+			],
+			[
+				"err",
+				"errors	{}"
+			],
+			[
+				"postSu",
+				"postSubmitErrors"
+			],
+			[
+				"Se",
+				"Session.get	Meteor: Session.get(key)"
+			],
+			[
+				"Metse",
+				"Meteor.setTimeout	Meteor.setTimeout(fn, delay)"
+			],
+			[
+				"Err",
+				"Errors	(?)"
+			],
+			[
+				"curr",
+				"currentUser"
+			],
+			[
+				"find",
+				"findOne	Meteor: collection.findOne(selector, [options])"
+			],
+			[
+				"user",
+				"userId	Meteor: this.userId"
+			],
+			[
+				"remo",
+				"remove	Meteor: collection.remove(selector, [callback])"
+			],
+			[
+				"eve",
+				"event	Meteor: Add a new event item"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"po",
+				"postWithSameLink	{}"
+			],
+			[
+				"Metus",
+				"Meteor.userId	Meteor.userId()"
+			],
+			[
+				"event",
+				"events	Meteor: Template.myTemplate.events(eventMap)"
+			],
+			[
+				"Meus",
+				"Meteor.userId	Meteor.userId()"
+			],
+			[
+				"fin",
+				"find	Meteor: this.find(selector)"
+			],
+			[
+				"Metme",
+				"Meteor.methods	Meteor.methods(methods)"
+			],
+			[
+				"Metlo",
+				"Meteor.loggingIn	Meteor.loggingIn()"
+			],
+			[
+				"Accout",
+				"Accounts.ui	Meteor: Accounts.ui.config(options)"
+			],
+			[
+				"Session",
+				"Session.set	Meteor: Session.set(key, value)"
+			],
+			[
+				"Dep",
+				"Deps.autorun	Meteor: Deps.autorun(runFunc)"
+			],
+			[
+				"Sess",
+				"Session.set	Meteor: Session.set(key, value)"
+			],
+			[
+				"fidn",
+				"findOne	Meteor: collection.findOne(selector, [options])"
+			],
+			[
+				"Route",
+				"Router.route	Router_route"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"Fake",
+				"Fake.word()	fake_Word"
+			],
+			[
+				"Fak",
+				"Fake.word()	fake_Word"
+			],
+			[
+				"Mon",
+				"Mongo.Collection 	Mongo_Collection"
+			],
+			[
+				"Meteco",
+				"Meteor.Collection	new Meteor.Collection(name, [options])"
+			],
+			[
+				"un",
+				"undefined	{}"
+			],
+			[
+				"url",
+				"urlObj"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Client/main.html",
+			"settings":
+			{
+				"buffer_size": 27,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"tern",
+				"TernJS: Reload"
+			],
+			[
+				"ter",
+				"TernJS: Reload"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"makr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"dul",
+				"File: Duplicate"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"git ",
+				"Git: Init"
+			],
+			[
+				"d",
+				"File: Duplicate"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"js",
+				"TernJS: Reload"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"BracketHighlighter: Select Bracket Content with Brackets"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 718.0
+	},
+	"console":
+	{
+		"height": 1070.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/t/Desktop/testBin/taskManager",
+		"/home/t/Desktop/testBin/taskManager/.meteor",
+		"/home/t/Desktop/testBin/taskManager/Client"
+	],
+	"file_history":
+	[
+		"/home/t/Desktop/testBin/twitter/twitter.js",
+		"/home/t/Desktop/testBin/taskManager/.meteor/packages",
+		"/home/t/Desktop/testBin/taskManager/taskManager.css",
+		"/home/t/Desktop/discoverMeteor/.meteor/packages",
+		"/home/t/Desktop/testBin/templates/templates.js",
+		"/home/t/Desktop/LearningMeteor/to-do/to-do.html",
+		"/home/t/Desktop/LearningMeteor/to-do/to-do.css",
+		"/home/t/Desktop/LearningMeteor/to-do/.meteor/packages",
+		"/home/t/.config/sublime-text-3/Packages/User/Markdown.sublime-settings",
+		"/home/t/Desktop/Vocab/Meteor/keyConcepts.md",
+		"/home/t/Desktop/streams/packages.json",
+		"/home/t/Desktop/streams/.meteor/packages",
+		"/home/t/Desktop/streams/streams.sublime-project",
+		"/home/t/Desktop/streams/.meteor/local/build/programs/ctl/packages/tracker.js",
+		"/home/t/Desktop/streams/.meteor/local/build/programs/ctl/node_modules/node-inspector/front-end/TextEditor.js",
+		"/home/t/Desktop/streams/.meteor/local/build/programs/ctl/node_modules/node-inspector/front-end/test-runner.html",
+		"/home/t/Desktop/streams/.meteor/local/build/programs/ctl/node_modules/browserstack-webdriver/lib/test/data/fixedFooterNoScroll.html",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Posts/post_List.js",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Includes/errors.html",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Posts/post_Item.html",
+		"/home/t/Desktop/discoverMeteor/lib/Router/Controllers/postSubmit_Controller.js",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Posts/post_Edit.html",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Posts/post_Submit.html",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Posts/post_Submit.js",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/javascript/debugger.sublime-snippet",
+		"/home/t/Desktop/discoverMeteor/lib/Router/Controllers/postPage_Controller.js",
+		"/home/t/Desktop/discoverMeteor/client/helpers/errors.js",
+		"/home/t/Desktop/discoverMeteor/lib/Router/Routes.js",
+		"/home/t/Desktop/discoverMeteor/lib/Router/Controllers/global_Controller.js",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Application/layout.html",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/browserstack-webdriver/lib/webdriver/key.js",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/node-inspector/lib/NetworkAgent.js",
+		"/home/t/Desktop/discoverMeteor/server/Collections/publications.js",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/server/node_modules/fstream/node_modules/mkdirp/test/perm.js",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/http-proxy/examples/middleware/modifyResponse-middleware.js",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/javascript/e_preventDefault.sublime-snippet",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/server/app/lib/Router/Controllers/postPage_Controller.js",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Posts/post_List.html",
+		"/home/t/Desktop/discoverMeteor/Collections/posts.js",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Application/notFound.html",
+		"/home/t/Desktop/discoverMeteor/client/Stylessheets/globalStyles.css",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/node-inspector/front-end/GoToLineDialog.js",
+		"/home/t/Desktop/discoverMeteor/.editorconfig",
+		"/home/t/Desktop/discoverMeteor/.meteor/cordova-plugins",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/sqlite3/deps/common-sqlite.gypi",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/node-inspector/front-end/CallStackSidebarPane.js",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/jsdoc/plugins/commentConvert.js",
+		"/home/t/Desktop/discoverMeteor/discoverMeteor.sublime-project",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/npm/node_modules/init-package-json/default-input.js",
+		"/home/t/Desktop/discoverMeteor/lib/Router/Controllers/poistList_Controller.js",
+		"/home/t/Desktop/discoverMeteor/server/fixtures.js",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/meteor/iron_router/Route_Controller.sublime-snippet",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/meteor/iron_router/Router_route.sublime-snippet",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/meteor/Meteor/Template.sublime-snippet",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Posts/post_Item.js",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Posts/post_Page.html",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Includes/access_denied.html",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Includes/header.html",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/globalHelpers.js",
+		"/home/t/Desktop/discoverMeteor/client/helpers/userConfig.js",
+		"/home/t/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/t/Desktop/Vocab/DiscoverMeteor.md",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/npm/doc/api/npm-outdated.md",
+		"/home/t/Desktop/discoverMeteor/client/Tempaltes/Application/loading.html",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/node-inspector/node_modules/strong-data-uri/.idea/data-uri.iml",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/npm/node_modules/sha/node_modules/readable-stream/duplex.js",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/cordova/CONTRIBUTING.md",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/config.json",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/npm/scripts/clean-old.sh",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/request/node_modules/oauth-sign/test.js",
+		"/home/t/Desktop/discoverMeteor/client/main.html",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/node-inspector/front-end/RemoteObject.js",
+		"/home/t/Desktop/discoverMeteor/.meteor/release",
+		"/home/t/Desktop/meteorDefualts/.jshintrc",
+		"/home/t/Desktop/discoverMeteor/client/Collections/subscriptions.js",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/server/packages/global-imports.js",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/browserstack-webdriver/docs/namespace_goog_iter.html",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/node-inspector/node_modules/rc/LICENSE.APACHE2",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/node-inspector/AUTHORS",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/node-inspector/front-end/AuditsPanel.js",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/sqlite3/appveyor.yml",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/packages/application-configuration.js",
+		"/home/t/Desktop/discoverMeteor/lib/Collections/posts.js",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/cordova/node_modules/cordova-lib/src/plugman/platform_operation.js",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/meteor/Mongo/Mongo_Collection.sublime-snippet",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/meteor/anti_Fake/fake_Word.sublime-snippet",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/meteor/anti_Fake/fake_Sentence.sublime-snippet",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/meteor/anti_Fake/fake_Paragraph.sublime-snippet",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/meteor/anti_Fake/fake_User.sublime-snippet",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/meteor/anti_Fake/fake_Color.sublime-snippet",
+		"/home/t/.config/sublime-text-3/Packages/User/snippets/meteor/anti_Fake/fake_fromArray.sublime-snippet",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/source-map/build/prefix-utils.jsm",
+		"/home/t/Desktop/discoverMeteor/.meteor/local/build/programs/ctl/node_modules/source-map/build/suffix-utils.jsm",
+		"/home/t/Desktop/meteorDefualts/.jshintignore",
+		"/home/t/Desktop/discoverMeteor/discoverMeteor.css",
+		"/home/t/Desktop/twitterStream/client/views/main.html",
+		"/home/t/Desktop/twitterStream/client/views/tweets/tweets.js",
+		"/home/t/Desktop/twitterStream/client/views/tweets/tweets.html",
+		"/home/t/Desktop/twitterStream/client/views/Commons/notFound404.html",
+		"/home/t/Desktop/twitterStream/client/views/Commons/loading.html",
+		"/home/t/Desktop/twitterStream/client/views/Commons/layout.html",
+		"/home/t/Desktop/twitterStream/client/views/Commons/header.html",
+		"/home/t/Desktop/twitterStream/client/views/Commons/footer.html",
+		"/home/t/Desktop/twitterStream/client/views/Commons",
+		"/home/t/Desktop/twitterStream/client/views/pages/homepage.html",
+		"/home/t/Desktop/twitterStream/packages.json",
+		"/home/t/Desktop/twitterStream/private/twitter.json",
+		"/home/t/Desktop/twitterStream/server/server.js",
+		"/home/t/Desktop/twitterStream/client/views/main.js",
+		"/home/t/Desktop/twitterStream/both/controllers",
+		"/home/t/Desktop/twitterStream/both/router.js",
+		"/home/t/Desktop/twitterStream/.meteor/local/db/METEOR-PORT",
+		"/home/t/Desktop/twitterStream/.meteor/.finished-upgraders",
+		"/home/t/Desktop/twitterStream/.meteor/local/db/journal/lsn",
+		"/home/t/Desktop/meteorDefualts/.sublime-project",
+		"/home/t/Desktop/meteorDefualts/.editorconfig",
+		"/home/t/Desktop/twitterStream/twitterStream.sublime-project",
+		"/home/t/.config/sublime-text-3/Packages/sublime-tern/ternjs/plugin/meteor.js",
+		"/home/t/Desktop/twitterStream/.meteor/packages",
+		"/home/t/Desktop/twitterStream/twitterStream.js",
+		"/home/t/Desktop/helloWorld/test.js",
+		"/home/t/Desktop/helloWorld/main.css",
+		"/home/t/Desktop/helloWorld/hello.txt",
+		"/home/t/Desktop/helloWorld/markDown.md",
+		"/home/t/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/t/.config/sublime-text-3/Packages/MarkdownEditing/Markdown.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"2",
+			"data",
+			"password",
+			"alert",
+			"postID",
+			"post",
+			"domain",
+			"moment",
+			"outPut",
+			"linkify",
+			"out",
+			"conf"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Client/main.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 27,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 124.0
+	},
+	"project": "taskManager.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"lay",
+				"discoverMeteor/client/Tempaltes/Application/layout.html"
+			],
+			[
+				"postpage",
+				"discoverMeteor/lib/Router/Controllers/postPage_Controller.js"
+			],
+			[
+				"postpa",
+				"discoverMeteor/.meteor/local/build/programs/server/app/lib/Router/Controllers/postPage_Controller.js"
+			],
+			[
+				"gloa",
+				"discoverMeteor/client/Stylessheets/globalStyles.css"
+			],
+			[
+				"layou",
+				"discoverMeteor/client/Tempaltes/Application/layout.html"
+			],
+			[
+				"post",
+				"discoverMeteor/client/Tempaltes/Posts/post_Item.html"
+			],
+			[
+				"not",
+				"discoverMeteor/client/Tempaltes/Application/notFound.html"
+			],
+			[
+				"posti",
+				"discoverMeteor/client/Tempaltes/Posts/post_Item.html"
+			],
+			[
+				"post/",
+				"discoverMeteor/client/Tempaltes/Posts/post_Item.html"
+			],
+			[
+				"control",
+				"discoverMeteor/lib/Router/Controllers/poistList_Controller.js"
+			],
+			[
+				"rotu",
+				"discoverMeteor/lib/Router/Routes.js"
+			],
+			[
+				"postlist",
+				"discoverMeteor/lib/Router/Controllers/poistList_Controller.js"
+			],
+			[
+				"rout",
+				"discoverMeteor/lib/Router/Routes.js"
+			],
+			[
+				"",
+				"discoverMeteor/lib/Router/Routes.js"
+			],
+			[
+				"dis",
+				"Vocab/DiscoverMeteor.md"
+			],
+			[
+				"pub",
+				"discoverMeteor/server/Collections/publications.js"
+			],
+			[
+				"sub",
+				"discoverMeteor/client/Collections/subscriptions.js"
+			],
+			[
+				"publi",
+				"discoverMeteor/server/publications.js"
+			],
+			[
+				"test",
+				"test.js"
+			],
+			[
+				"mar",
+				"markDown.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,37 @@
+
+<template name="whiteBoard">
+<div class="ui center aligned three column grid">
+  <div class="row">
+    <div class="column">
+      <div class="ui vertical fluid menu">
+        <div class="header item">
+          New Task's
+            {{#linkTo route='newTask.link'}}
+              <i class="add icon button"></i>
+            {{/linkTo}}
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui vertical fluid menu">
+        <div class="header item">
+          Dogs
+        </div>
+        <div class="item">
+          Poodle
+        </div>
+        <div class="item">
+          Cockerspaniel
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui vertical fluid menu">
+        <div class="header item">
+          Monkeys
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</template>

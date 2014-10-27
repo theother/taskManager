@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+    "ternjs": {
+        "libs": ["browser", "underscore", "jquery"],
+        "exclude": [".meteor/**", "node_modules/**"],
+        "plugins": {
+            "meteor": {}
+        }
+    }
+}
+
+
