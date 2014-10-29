@@ -1,5 +1,10 @@
-<template name="Layout">
-
+<template name="homeLayout">
   {{> sideBar}}
   {{> whiteBoard}}
+</template>
+
+
+<template name="taskLayout">
+  {{> sideBar}}
+  {{> yield}}
 </template>

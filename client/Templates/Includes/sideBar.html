@@ -2,10 +2,12 @@
 <template name="sideBar">
   <div class="ui sidebar">
     <div class="ui red vertical demo sidebar menu">
+    {{#linkTo route='home.link'}}
     <a class="item">
       <i class="home icon"></i>
       Home
     </a>
+    {{/linkTo}}
     <a class="active item">
       <i class="heart icon"></i>
       Current Section

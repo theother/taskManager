@@ -1,0 +1,26 @@
+
+<template name="new_Task">
+  <div class="ui grid">
+    <div class="one column row">
+      <div class="column">
+        <div class="ui segment">
+          {{> add_Task}}
+        </div>
+      </div>
+    </div>
+    <div class="two column row">
+      <div class="column">
+        <div class="ui segment">
+          {{#each currentTask}}
+            <li>{{taskName}}</li>
+          {{/each}}
+        </div>
+      </div>
+      <div class="column">
+        <div class="ui segment">
+          Recent Activity
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

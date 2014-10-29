@@ -4,15 +4,30 @@
 		{
 			"follow_symlinks": true,
 			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/t/Desktop/LearningMeteor/to-do"
 		}
 	],
-    "ternjs": {
-        "libs": ["browser", "underscore", "jquery"],
-        "exclude": [".meteor/**", "node_modules/**"],
-        "plugins": {
-            "meteor": {}
-        }
-    }
+	"ternjs":
+	{
+		"exclude":
+		[
+			".meteor/**",
+			"node_modules/**"
+		],
+		"libs":
+		[
+			"browser",
+			"underscore",
+			"jquery"
+		],
+		"plugins":
+		{
+			"meteor":
+			{
+			}
+		}
+	}
 }
-
-

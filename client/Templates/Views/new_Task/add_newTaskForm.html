@@ -1,0 +1,78 @@
+<template name="newTaskForm">
+
+
+<div class="ui two column grid">
+  <div class="column">
+    <div class="ui segment">
+
+
+<!-- Task Name -->
+<h2 class="ui header">
+  Task:
+  <div class="ui input">
+  <input type="text" placeholder="Name..." name="taskName">
+  </div>
+</h2>
+<hr>
+
+
+<!-- Checkpoint List-->
+<form class="ui fluid action input" id="checkPointForm">
+  <input type="text" name="checkPoint" placeholder="Start Reasurch On...." value="">
+  <input class="ui button" type="submit" value="Add Checkpoints" />
+</form>
+
+<div class="ui segment">
+
+{{#if deleteCheckPoint}}
+<div class="ui red message">Are you sure you want to delete the <b>{{deleteCheckPointName.name}}</b> checkpoint?
+<div class="ui horizontal icon divider">
+  <i class="circular heart icon"></i>
+</div>
+<div class="ui buttons">
+  <div class="ui button" id="cancle_deleteCheckPoint">Cancel</div>
+  <div class="or"></div>
+  <div class="ui negative button" id="confirm_deleteCheckPoint">Yes</div>
+</div>
+</div>
+{{/if}}
+
+<div class="inline field">
+{{#if emptyCheckPointList}}
+  <h1>No Checkpoints Establised</h1>
+{{/if}}
+{{#each checkpoint}}
+  <li>
+  <label>{{name}}</label>
+  <i class="trash icon" id="trashCheckpoint"></i>
+  </li>
+{{/each}}
+  </div>
+</div>
+
+    </div>
+  </div>
+  <div class="column">
+
+
+<!-- Description -->
+<div class="ui segment">
+<div class="ui form">
+<div class="field">
+<label>User Text</label>
+<textarea name="taskDescription"></textarea>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="ui buttons">
+  <div class="ui button">Cancel</div>
+  <div class="or"></div>
+  <div class="ui positive button" id="saveTask">Save</div>
+</div>
+</template>
