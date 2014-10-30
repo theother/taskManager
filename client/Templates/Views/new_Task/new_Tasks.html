@@ -8,11 +8,36 @@
         </div>
       </div>
     </div>
+
+
     <div class="two column row">
       <div class="column">
         <div class="ui segment">
           {{#each currentTask}}
-            <li>{{taskName}}</li>
+          <div class="ui segment">
+            <h2>{{taskName}} {{priority}}</h2>
+
+<div class="ui large star rating" data-rating="{{priority}}">
+  <i class="icon"></i>
+  <i class="icon"></i>
+  <i class="icon"></i>
+  <i class="icon"></i>
+  <i class="icon"></i>
+</div>
+{{priority}}
+
+
+            <hr>
+            <h3>Tasks</h3>
+            {{#each checkPoints}}
+              <li>{{name}}</li>
+            {{/each}}
+
+<!-- Progress Bar -->
+<div class="ui blue active striped progress">
+<div class="bar" style="width: 30%;"></div>
+</div>
+            </div>
           {{/each}}
         </div>
       </div>

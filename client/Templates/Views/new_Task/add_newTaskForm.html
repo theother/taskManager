@@ -7,62 +7,108 @@
 
 
 <!-- Task Name -->
-<h2 class="ui header">
-  Task:
-  <div class="ui input">
+<div class="ui segment">
+<h4 class="ui black block header">
+Task Name
+</h4>
+  <div class="ui fluid input">
   <input type="text" placeholder="Name..." name="taskName">
   </div>
-</h2>
-<hr>
+</div>
+
+
 
 
 <!-- Checkpoint List-->
+<div class="ui segment">
+
 <form class="ui fluid action input" id="checkPointForm">
+  <button class="fluid ui button" id="fullWidth" type="submit">
+    Add Checkpoints
+  </button>
+
+  <div class="ui fluid input">
   <input type="text" name="checkPoint" placeholder="Start Reasurch On...." value="">
-  <input class="ui button" type="submit" value="Add Checkpoints" />
+  </div>
 </form>
 
 <div class="ui segment">
 
 {{#if deleteCheckPoint}}
-<div class="ui red message">Are you sure you want to delete the <b>{{deleteCheckPointName.name}}</b> checkpoint?
-<div class="ui horizontal icon divider">
+<div class="ui red message" id="centerText">Are you sure you want to delete the <b>{{deleteCheckPointName.name}}</b> checkpoint?
+  <div class="ui horizontal icon divider">
   <i class="circular heart icon"></i>
-</div>
-<div class="ui buttons">
-  <div class="ui button" id="cancle_deleteCheckPoint">Cancel</div>
-  <div class="or"></div>
-  <div class="ui negative button" id="confirm_deleteCheckPoint">Yes</div>
-</div>
+  </div>
+  <div class="ui segment" id="deleteButtionOptions">
+    <a class="ui black button floated left" id="cancle_deleteCheckPoint">Cancle</a>
+    <a class="ui red button floated right" id="confirm_deleteCheckPoint">Delete</a>
+  </div>
 </div>
 {{/if}}
 
+<!-- If No checkpoints created -->
 <div class="inline field">
 {{#if emptyCheckPointList}}
-  <h1>No Checkpoints Establised</h1>
+<div class="ui red ribbon label">No Checkpoints Establised</div>
 {{/if}}
+
 {{#each checkpoint}}
-  <li>
-  <label>{{name}}</label>
-  <i class="trash icon" id="trashCheckpoint"></i>
-  </li>
+<div class="ui celled list sortable">
+  <div class="item newTaskCheckPoint">
+<!-- Trash/sort can Icon-->
+<i class="trash icon" id="trashCheckpoint"></i>
+<i class="sort icon floated right"></i>
+    <div class="content">
+      <div class="header">{{name}}</div>
+    </div>
+  </div>
+</div>
+
 {{/each}}
   </div>
+
+
 </div>
 
     </div>
   </div>
-  <div class="column">
+</div>
+
+
+<!-- Left Segment -->
+<div class="column">
+<div class="ui segment">
+
+<div class="ui segment">
+<h4 class="ui black block header">
+Priority Rating
+<span>
+<div class="ui large star rating">
+  <i class="icon"></i>
+  <i class="icon"></i>
+  <i class="icon"></i>
+  <i class="icon"></i>
+  <i class="icon"></i>
+</div>  
+</span>
+
+</h4>
+</div>
 
 
 <!-- Description -->
 <div class="ui segment">
 <div class="ui form">
 <div class="field">
-<label>User Text</label>
+<h4 class="ui black block header">
+Task Description
+</h4>
 <textarea name="taskDescription"></textarea>
 </div>
 </div>
+
+
+
     </div>
   </div>
 </div>
@@ -70,7 +116,13 @@
 
 
 
-<div class="ui buttons">
+
+</div>
+
+
+
+
+<div class="ui buttons floated right">
   <div class="ui button">Cancel</div>
   <div class="or"></div>
   <div class="ui positive button" id="saveTask">Save</div>

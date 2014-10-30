@@ -1,7 +1,22 @@
 
+Template.newTaskForm.rendered = function () {
+  // Rating ui render on template load
+  $('.ui.rating').rating();
+};
+//If new task added it re-render the stars
+Tracker.autorun(function () {
+  if (NewTask.find().count()) {
+    $('.ui.rating').rating();
+  };
+})
+
+
+
 TempCheckpoint = new Mongo.Collection(null);
 Session.set('deleteCheckPoint', false);
 Session.set('deleteCheckPointData', '');
+
+
 
 Template.newTaskForm.helpers({
   emptyCheckPointList: function () {
@@ -26,7 +41,7 @@ Template.newTaskForm.events({
     //Grab newCheckPoint Value
     var newCheckpoint = $('[name="checkPoint"]').val();
     //Insert val into temp collection
-    TempCheckpoint.insert({name: newCheckpoint});
+    TempCheckpoint.insert({name: newCheckpoint, completed: false});
     //Reset value to ''
     $('[name="checkPoint"]').val('');
     //Change placeholder
@@ -38,6 +53,7 @@ Template.newTaskForm.events({
     //Grab the name and id
     var name = this.name;
     var id = this._id;
+    var completed = false;
     //Set session with the the data that is needed to be refered
     //latter to confirm and ten remove
     Session.set('deleteCheckPointData', {name: name, id: id});
@@ -65,12 +81,27 @@ Template.newTaskForm.events({
     //Inserting as an array -- fix
     var checkpoints = TempCheckpoint.find().fetch();
 
+    //Gets rating
+    var priority = $('.ui.rating').rating('get rating');
+    //Takes rating array and returns a single value
+    function priorityFinder (priority) {
+      if (NewTask.find().count() === 0) {
+        return priority;
+      }else{
+        return _.first(priority);
+      }
+    }
+    //Varible for taskData
+    var starCount = priorityFinder(priority);
+
+
+
     var taskData = {
       taskName: name,
       taskDescription: desctiption ,
+      priority: starCount,
       checkPoints: checkpoints
     };
-
     NewTask.insert(taskData);
   }
 

@@ -17,4 +17,5 @@ audit-argument-checks
 #reactive-var
 #anti:fake
 reactive-var
+jquery
 
