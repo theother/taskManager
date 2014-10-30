@@ -1,6 +1,6 @@
 
 Template.newTaskForm.rendered = function () {
-  // Rating ui render on template load
+  // Activates star priority rating
   $('.ui.rating').rating();
 };
 //If new task added it re-render the stars
@@ -93,16 +93,20 @@ Template.newTaskForm.events({
     }
     //Varible for taskData
     var starCount = priorityFinder(priority);
-
-
-
+    //Collect task data
     var taskData = {
       taskName: name,
       taskDescription: desctiption ,
       priority: starCount,
       checkPoints: checkpoints
     };
-    NewTask.insert(taskData);
-  }
 
+    //Removes Temp checkpoints from local colecction
+    TempCheckpoint.remove({});
+    //Add Task to bd
+    NewTask.insert(taskData);
+    //Close add task form and change button diaolog
+    Session.set('createTaskButtonLable', 'Add New Task');
+    Session.set('createNewTask', false);
+  }
 });
