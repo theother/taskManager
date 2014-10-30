@@ -1,7 +1,7 @@
 
 Template.add_Task.rendered = function () {
-  // $('.ui.selection.dropdown').dropdown();
-
+  //Star Proprity Activation
+  $('.ui.rating').rating();
 };
 
 
