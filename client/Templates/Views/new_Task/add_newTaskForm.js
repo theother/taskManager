@@ -73,6 +73,14 @@ Template.newTaskForm.events({
       return Session.set('deleteCheckPoint', false);
     });
   },
+  'click #cancleTask': function (e) {
+    e.preventDefault();
+    //Removes Temp checkpoints from local colecction
+    TempCheckpoint.remove({});
+    //Close add task form and change button diaolog
+    Session.set('createTaskButtonLable', 'Add New Task');
+    Session.set('createNewTask', false);
+  },
   'click #saveTask': function (e) {
     e.preventDefault();
 
