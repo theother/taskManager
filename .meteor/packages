@@ -10,6 +10,10 @@ insecure
 #Style
 richsilv:semantic-ui
 
+#account
+useraccounts:semantic-ui
+accounts-password
+
 iron:router@1.0.0-pre4
 sacha:spin
 
