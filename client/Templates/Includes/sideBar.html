@@ -4,9 +4,9 @@
     <div class="ui red vertical demo sidebar menu">
 <!-- Home Link -->
     {{#linkTo route='home.link'}}
-    <a class="item {{active '/'}}">
-      <i class="home icon"></i>
-      Home
+    <a class="{{active '/'}} item">
+      <i class="archive icon"></i>
+      My Projects
     </a>
     {{/linkTo}}
     <a class="{{active '/newTask'}} item">
@@ -22,7 +22,7 @@
     </div>
     <a class="item">
       <i class="facebook icon"></i>
-      Like us on Facebook
+      {{> loginButtons}}
     </a>
     </div>
   </div>

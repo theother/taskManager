@@ -1,18 +1,61 @@
-<template name="home_Login">
-<div class="ui two column middle aligned relaxed grid basic segment">
-  <div class="column">
-    <div class="ui form segment">
-{{> atForm}}
+<template name="my_Projects">
+  <div class="ui inverted segment">
+    <div class="ui inverted basic button" id="createNewProject">
+      <i class="icon globe"></i>
+      Create a New Project
     </div>
   </div>
-  <div class="ui vertical divider">
-    Or
-  </div>
-  <div class="center aligned column">
-    <div class="huge green ui labeled icon button">
-      <i class="signup icon"></i>
-      Sign Up
+
+{{#if createNewProjectForm}}
+  <form class="column" id="projectForm">
+    <div class="ui segment">
+      <div class="ui segment">
+        <h4 class="ui black block header">
+        Project Name
+        </h4>
+        <div class="ui fluid input">
+          <input type="text" placeholder="Project Name..." name="projectName">
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+        <div class="ui segment">
+  <!-- Proiority Rating -->
+      <div class="ui segment">
+        <h4 class="ui black block header">
+        Priority Rating
+        <span>
+          <div class="ui large star rating">
+            <i class="icon"></i>
+            <i class="icon"></i>
+            <i class="icon"></i>
+            <i class="icon"></i>
+            <i class="icon"></i>
+          </div>
+        </span>
+        </h4>
+      </div>
+   <!-- Task Description -->
+      <div class="ui segment">
+        <div class="ui form">
+          <div class="field">
+            <h4 class="ui black block header">
+            Task Description
+            </h4>
+            <textarea name="taskDescription"></textarea>
+          </div>
+        </div>
+      </div>
+      <!-- Save or Cancle Buttons -->
+    <div class="ui buttons floated right">
+      <div class="ui button" id="cancleProject">Cancel</div>
+      <div class="or"></div>
+      <div type="submit" class="ui positive button" id="saveProject">Save</div>
+    </div>
+    </div>
+  </form>
+{{/if}}
+</template>
+
+<template name="newProjectForm">
+
 </template>

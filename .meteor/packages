@@ -11,7 +11,8 @@ insecure
 richsilv:semantic-ui
 
 #account
-useraccounts:semantic-ui
+#useraccounts:semantic-ui
+accounts-ui
 accounts-password
 
 iron:router@1.0.0-pre4
